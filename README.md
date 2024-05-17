@@ -21,20 +21,21 @@
 
 This project is intended to 
 
-![project image](resources/image1.png)
+![project image](resources/image8.png)
 
 # Tools Used in this Project
 
 - Python
-- 
+- Pygame
+- Q-Learning Algorithm
+- Numpy
 
 
 # Development Environment
 
 - VS Code
 - Terminal
-- Pygame
-- 
+- Windows 10
 
 # Team / Contributors / Teachers
 
@@ -45,4 +46,5 @@ This project is intended to
 
 # Project Overview
 
+This project 
  
