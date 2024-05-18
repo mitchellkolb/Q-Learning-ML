@@ -52,7 +52,7 @@ This project utilizes Q-learning to train an AI agent to navigate and complete a
 ## Project Details
 
 ### Introduction
-Training an AI to perform tasks efficiently has numerous applications, from autonomous driving to optimizing routes in navigation systems. In this project, we apply Q-learning to train an AI agent to drive a car in a top down racing game we quickly created in pygame. On game startup, the AI has no understanding of the game environment it only knows that it wants more positive attributes given to it than negative. Through a reward and punishment system, the AI learns to navigate the track successfully, avoiding obstacles and completing laps efficiently.
+In this project, we apply Q-learning to train an AI agent to drive a car in a top down racing game we quickly created in pygame. Through a reward and punishment system known as Q-learning, the AI learns to navigate the track successfully, avoiding obstacles and completing laps efficiently. On game startup, the AI has no understanding of the game environment it only knows that it wants more positive attributes given to it than negative.
 
 ### Literature Review
 In this we drew inspiration from various sources, including video tutorials online for pygame creation and research on reinforcement learning. Notably, a tutorial on training an AI lizard to navigate tiles in a game provided foundational insights into Q-learning's reward-based system. Additionally, articles and tutorials on Q-learning and deep reinforcement learning informed our implementation, helping us understand the mathematical foundations and practical applications of these algorithms.
