@@ -10,14 +10,14 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/Q-Learning-ML?color=56BEB8" />
 </p>
 
-
+<p align="center">
 <img
     src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"
     alt="Website Badge" />
 <img
     src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows 10&logoColor=white"
     alt="Website Badge" />
-
+</p>
 
 This project is intended to showcase our knowledge learning about Neural Network Design by developing an AI agent capable of playing a 2-dimensional racing game using Q-learning. The goal is to showcase the effectiveness of Q-learning in training an AI to perform a task optimally by rewarding positive behavior and punishing negative behavior. The project not only demonstrates the capabilities of Q-learning but also emphasizes its broad applicability to various scenarios beyond gaming.
 
@@ -73,7 +73,7 @@ The project employs a Q-Table to store the expected future rewards for each stat
 ### Q-Learning and Deep Q-Learning Implementation
 In this project, Q-learning is used to train the AI agent by updating Q-values based on rewards and punishments. The algorithm helps the AI learn the optimal actions to take in different states of the racing game. To enhance the learning process, Deep Q-Learning combines Q-learning with neural networks, which approximate the Q-values and reduce the number of trials needed for effective learning.
 
-##### Results and Observations
+#### Results and Observations
 During development, we encountered challenges in designing an effective reward system and implementing collision detection. By refining the reward system and fixing bugs, we improved the AI's performance. The AI learned to navigate the track more efficiently, showing significant progress over time. Our final implementation demonstrated the AI's ability to complete laps and optimize its route, proving the effectiveness of Q-learning and Deep Q-Learning in training AI for this task. Below is the results of our first and final learning cycle as we improved apon the AI model parameters and learning qualities throughout the project.
 
 <p float="left">
@@ -82,7 +82,7 @@ During development, we encountered challenges in designing an effective reward s
 </p>
 
 
-##### Future Work
+#### Future Work
 Future improvements could include enhancing the collision mechanics to reset the game upon crashing, adjusting reward values for checkpoints, and refining the hitbox for better accuracy. Additionally, exploring other reinforcement learning algorithms could provide further insights into optimizing AI behavior.
 
 ## References
