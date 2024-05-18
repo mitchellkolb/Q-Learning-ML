@@ -47,15 +47,15 @@ This project is intended to showcase our knowledge learning about Neural Network
 
 # Project Overview
 
-This project utilizes Q-learning to train an AI agent to navigate and complete a 2-dimensional racing game. The AI agent starts with no prior knowledge and learns to drive around the track by receiving rewards for positive actions (e.g., moving towards the finish line) and punishments for negative actions (e.g., hitting the track border). The Q-learning algorithm updates the Q-values for each state-action pair iteratively, allowing the AI to optimize its behavior over time.
+This project utilizes Q-learning to train an AI agent to navigate and complete a 2-dimensional racing game. The AI agent starts with no prior knowledge and learns to drive around the track by receiving rewards for positive actions (e.g., moving towards the finish line and mini finish lines placed throughout the track) and punishments for negative actions (e.g., hitting the track border). The Q-learning algorithm updates the Q-values for each state-action pair iteratively, allowing the AI to optimize its behavior over time after its failures.
 
 ## Project Details
 
 ### Introduction
-Training an AI to perform tasks efficiently has numerous applications, from autonomous driving to optimizing routes in navigation systems. In this project, we apply Q-learning to train an AI agent to drive a car in a racing game. Initially, the AI has no understanding of the game environment. Through a reward and punishment system, the AI learns to navigate the track successfully, avoiding obstacles and completing laps efficiently.
+Training an AI to perform tasks efficiently has numerous applications, from autonomous driving to optimizing routes in navigation systems. In this project, we apply Q-learning to train an AI agent to drive a car in a top down racing game we quickly created in pygame. On game startup, the AI has no understanding of the game environment it only knows that it wants more positive attributes given to it than negative. Through a reward and punishment system, the AI learns to navigate the track successfully, avoiding obstacles and completing laps efficiently.
 
 ### Literature Review
-This project draws inspiration from various sources, including tutorials and research on reinforcement learning. Notably, a tutorial on training an AI lizard to navigate tiles in a game provided foundational insights into Q-learning's reward-based system. Additionally, articles and tutorials on Q-learning and deep reinforcement learning informed our implementation, helping us understand the mathematical foundations and practical applications of these algorithms.
+In this we drew inspiration from various sources, including video tutorials online for pygame creation and research on reinforcement learning. Notably, a tutorial on training an AI lizard to navigate tiles in a game provided foundational insights into Q-learning's reward-based system. Additionally, articles and tutorials on Q-learning and deep reinforcement learning informed our implementation, helping us understand the mathematical foundations and practical applications of these algorithms.
 
 ### Technical Plan
 The project employs a Q-Table to store the expected future rewards for each state-action pair. The Q-learning algorithm uses the Bellman equation to update these values iteratively. We chose a 2-dimensional racing game as our environment due to its clear reward system and straightforward failure detection. The AI agent, implemented using Python and Pygame, learns to drive the car around the track by receiving rewards for crossing checkpoints and the finish line and punishments for hitting the track border.
