@@ -1,0 +1,46 @@
+
+-- Course Project (5% + 8% + 10% = 23% grade)
+Course project is a team work. There can be one, two, or three (up to three) students in each team. There are 3 milestones for each course project, by which a report is required, i.e., project proposal, progress report and final report. Below is the key information regarding each of them.
+• Project proposal (5% grade): (i) determine team members, (ii) decide what problem you are going to investigate, and (iii) submit a written proposal to describe your idea and plan.
+Due date: Feb 19, 2023.
+Length limit: 2 pages (title, abstract, main text) + unlimited reference page + unlimited appendix page.
+Format: PDF (exported from Microsoft Word or compiled from LaTeX, e.g., a LaTeX tem- plate).
+What should be included:
+	– Title: give a name to the project to highlight the significance, what contributions this project can have. The title should be short and relevant to your project.
+	– Team members and student IDs. You still need to ensure that you create a group for your team and all team members have been included in one group. Otherwise, team members not included in the group will NOT receive credit. See Appendix A for creating group on Canvas.
+	– Abstract: a paragraph that introduce key points, e.g., (i) why you choose this problem and this project, (ii) what unique advantage your project will have, (iii) a plan of the key steps for finishing this project, or anything else.
+	– Introduction: a detailed explanation/elaboration of Abstract on the key points, e.g., one paragraph to elaborate one key point.
+	– Literature review: any references that are important and relevant to the project, e.g., some techniques in the project that are inspired by other people’s work including tutorials, Git repository, research publication, blogs, etc. Introduce more about what inspired the project.
+	– Technical plan: a detailed elaboration of techniques used in this project (based on the techniques in Section "Literature review", if any). This plan can be described by a flowchart or any other figures.
+	– Reference: if anything inspired your project or is relevant to your project, a citation is required.
+• Progress report (8% grade): after deciding the project, each team starts their project. A progress report is required to elaborate how the project is going.
+Due date: Mar 26, 2023.
+Length limit: 4 pages (title, abstract, main text) + unlimited reference page + unlimited appendix page.
+Format: PDF (exported from Microsoft Word or compiled from LaTeX, e.g., a LaTeX tem- plate).
+What should be included:
+	– Title: give a name to the project to highlight the significance, what contributions this project can have. The title should be short and relevant to your project. 
+	– Team members and student IDs. You still need to ensure that you create a group for your team and all team members have been included in one group. Otherwise, team members not included in the group will NOT receive credit. See Appendix A for creating group on Canvas.
+	– Abstract: a paragraph that introduce key points, e.g., (i) why you choose this problem and this project, (ii) what unique advantage your project will have, (iii) a plan of the key steps for finishing this project, or anything else.
+	– Introduction: a detailed explanation/elaboration of Abstract on the key points, e.g., one paragraph to elaborate one key point.
+	– Literature review: any references that are important and relevant to the project, e.g., some techniques in the project that are inspired by other people’s work including tutorials, Git repository, research publication, blogs, etc. Introduce more about what inspired the project.
+	– Technical plan: a detailed elaboration of techniques used in this project (based on the techniques in Section "Literature review", if any). This plan can be described by a flowchart or any other figures.
+	– Complete results (NEW): following the plan (or the modified plan after the progress report), what has been done in the project? Elaborate what the team tried for finish- ing the plan, and what observation and knowledge the team acquired so far. Both theoretical analysis and experimental result can be regarded as the results.
+	– Future work after this course (NEW): given what the team tried and learned from the project, is there any idea in the future that can be explored further?
+	– Reference: if anything inspired your project or is relevant to your project, a citation is required.
+Note that the final project report can re-use materials from the project proposal and progress report. New sections, i.e., complete results and future work after this course must be included in progress report.
+What can be optionally included:
+– Github repository (a URL link) that includes a complete copy of your implementation
+code (in this way, your code will be open source under a selected license).
+– Jupyter-lab notebook that is used to demo how your model can work and display experimental results.
+How to select a project?
+• Example reports Previous reports from other courses
+– CS229, Stanford: Fall 2017, Fall 2018, Fall 2019, Spring 2020, Spring 2021 (report +
+poster), suggested ideas
+– CS221, Stanford: Spring 2017 (titles only)
+– CS231n, Stanford: Spring 2017, Spring 2022 (report + poster)
+• Examples from open competition on Kaggle competitions: deep learning applications
+
+
+
+
+
