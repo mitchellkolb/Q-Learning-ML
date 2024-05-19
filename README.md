@@ -19,7 +19,7 @@
     alt="Website Badge" />
 </p>
 
-This project is intended to showcase our knowledge learning about Neural Network Design by developing an AI agent capable of playing a 2-dimensional racing game using Q-learning. The goal is to showcase the effectiveness of Q-learning in training an AI to perform a task optimally by rewarding positive behavior and punishing negative behavior. The project not only demonstrates the capabilities of Q-learning but also emphasizes its broad applicability to various scenarios beyond gaming.
+This project is intended to showcase our knowledge learning about Neural Network Design by developing an AI agent capable of playing a 2-dimensional racing game using Q-learning. The goal is to showcase the effectiveness of Q-learning in training an AI to perform a task optimally by rewarding positive behavior and punishing negative behavior.
 
 ![project image](resources/image8.png)
 
