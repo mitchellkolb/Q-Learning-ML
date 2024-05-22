@@ -1,13 +1,13 @@
 <h1 align="center">Q-Learning Racing Game Project</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/Q-Learning-ML?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/Q-Learning-ML?color=0078D6">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/Q-Learning-ML?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/Q-Learning-ML?color=0078D6">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/Q-Learning-ML?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/Q-Learning-ML?color=0078D6">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/Q-Learning-ML?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/Q-Learning-ML?color=0078D6" />
 </p>
 
 <p align="center">
@@ -97,3 +97,6 @@ Future improvements could include enhancing the collision mechanics to reset the
 9. Willems, L. [LCSWILLEMS/RL-starter-files: RL starter files in order to immediately train, visualize and evaluate an agent without writing any line of code](https://github.com/lcswillems/rl-starter-files)
 10. Paszke, A. [Reinforcement Learning (DQN) Tutorial](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 
+--- 
+# Acknowledgments
+This report and all supporting materials was made as apart of a course for my undergrad at WSU for CPTS 434 - Neural Network Design & Application in the Spring of 2023. 
