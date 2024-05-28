@@ -23,30 +23,49 @@ This project is intended to showcase our knowledge learning about Neural Network
 
 ![project image](resources/image8.png)
 
-# Tools Used in this Project
 
+---
+
+# Table of Contents
+- [What I Learned in this Project](#what-i-learned-in-this-project)
+- [Tools Used in this Project](#tools-used-in-this-project)
+- [Development Environment](#development-environment)
+- [Team / Contributors / Teachers](#team--contributors--teachers)
+- [Project Overview](#project-overview)
+  - [Introduction](#introduction)
+  - [Literature Review](#literature-review)
+  - [Technical Plan](#technical-plan)
+  - [Files and Structure](#files-and-structure)
+  - [Q-Learning and Deep Q-Learning Implementation](#q-learning-and-deep-q-learning-implementation)
+  - [Results and Observations](#results-and-observations)
+  - [Future Work](#future-work)
+- [References](#references)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+# What I Learned in this Project
+- How to determin
+- General ideas learned while completing the project: Re
+
+# Tools Used in this Project
 - Python
 - Pygame
 - Q-Learning Algorithm
 - Numpy
 - PyTorch
 
-
 # Development Environment
-
 - VS Code
 - Terminal
 - Windows 10
 
 # Team / Contributors / Teachers
-
 - [Mitchell Kolb](https://github.com/mitchellkolb)
 - [Flavio Alvarez Penate](https://github.com/f-alvarezpenate)
 - Professor. Yan Yan
 
-
 # Project Overview
-
 This project utilizes Q-learning to train an AI agent to navigate and complete a 2-dimensional racing game. The AI agent starts with no prior knowledge and learns to drive around the track by receiving rewards for positive actions (e.g., moving towards the finish line and mini finish lines placed throughout the track) and punishments for negative actions (e.g., hitting the track border). The Q-learning algorithm updates the Q-values for each state-action pair iteratively, allowing the AI to optimize its behavior over time after its failures.
 
 ## Project Details
@@ -60,9 +79,7 @@ In this we drew inspiration from various sources, including video tutorials onli
 ### Technical Plan
 The project employs a Q-Table to store the expected future rewards for each state-action pair. The Q-learning algorithm uses the Bellman equation to update these values iteratively. We chose a 2-dimensional racing game as our environment due to its clear reward system and straightforward failure detection. The AI agent, implemented using Python and Pygame, learns to drive the car around the track by receiving rewards for crossing checkpoints and the finish line and punishments for hitting the track border.
 
-### Implementation Details
-
-#### Files and Structure
+### Files and Structure
 - `game.py`: Contains the racing game environment and controls the car's movement.
 - `agent.py`: Implements the Deep Q-Learning algorithm, including the agent's actions and training process.
 - `aiModel.py`: Defines the neural network architecture and the training process using PyTorch.
@@ -73,7 +90,7 @@ The project employs a Q-Table to store the expected future rewards for each stat
 ### Q-Learning and Deep Q-Learning Implementation
 In this project, Q-learning is used to train the AI agent by updating Q-values based on rewards and punishments. The algorithm helps the AI learn the optimal actions to take in different states of the racing game. To enhance the learning process, Deep Q-Learning combines Q-learning with neural networks, which approximate the Q-values and reduce the number of trials needed for effective learning.
 
-#### Results and Observations
+### Results and Observations
 During development, we encountered challenges in designing an effective reward system and implementing collision detection. By refining the reward system and fixing bugs, we improved the AI's performance. The AI learned to navigate the track more efficiently, showing significant progress over time. Our final implementation demonstrated the AI's ability to complete laps and optimize its route, proving the effectiveness of Q-learning and Deep Q-Learning in training AI for this task. Below is the results of our first and final learning cycle as we improved apon the AI model parameters and learning qualities throughout the project.
 
 <p float="left">
@@ -82,7 +99,7 @@ During development, we encountered challenges in designing an effective reward s
 </p>
 
 
-#### Future Work
+### Future Work
 Future improvements could include enhancing the collision mechanics to reset the game upon crashing, adjusting reward values for checkpoints, and refining the hitbox for better accuracy. Additionally, exploring other reinforcement learning algorithms could provide further insights into optimizing AI behavior.
 
 ## References
