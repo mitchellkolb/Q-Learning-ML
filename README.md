@@ -45,8 +45,11 @@ This project is intended to showcase our knowledge learning about Neural Network
 ---
 
 # What I Learned in this Project
-- How to determin
-- General ideas learned while completing the project: Re
+- How to code using Pytorch, Juniper Notebook, and Colab Cloud TPU's.
+- Using WSU Lab GPU's to run models.
+- Making a game with the PyGame library using sprites and frame-based timing.
+- Writing a research/results style paper in the IEEE format
+- General ideas learned while completing the project: Softmax Classifiers, Backpropagation, CNN's (Convolutional neural networks), RNN's (Recurrent neural networks), GNN's (Graph neural networks), GAN's (Generative adversarial networks), Q-Learning, Deep Q-Learning, Reinforcement Learning, Epsilon-Greedy.
 
 # Tools Used in this Project
 - Python
